@@ -68,14 +68,13 @@ footer {
     height: 25rem;
     min-width: 15rem;
     min-height: 14rem;
+    transition: 0.5s;
+    padding-left: 2rem;
+    padding-top: 2rem;
 }
-#line {
-    display: flex;
-    top: 1.2rem;
-    left: 30.3rem;
-    align-items: center;
-    position: absolute;
-    width: 15rem;
+.form:hover {
+    background-color: rgba(23, 16, 16, 0.8);
+    transition: 0.5s;
 }
 #corner {
     position: absolute;

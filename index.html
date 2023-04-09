@@ -27,49 +27,63 @@
                 <div id="text1">Play for free</div>
                 <div id="text2">Sign up now!</div>
                 <img id="corner" src="./img/corner.svg">
-                <img id="line" src="./img/line1.svg">
             </div>
         </div>
         <div class="form">
+            <form>
             <section>
                     <ul class="basicList">
                         <li>
                             <input type="text"
-                            placeholder="First name">
+                            placeholder="First name"
+                            maxlength="20"
+                            required>
                         </li>
                         <li>
                             <input type="text"
-                            placeholder="Last name">
+                            placeholder="Last name"
+                            maxlength="20"
+                            required>
                         </li>
                         <li>
                             <input type="email"
-                            placeholder="Email">
+                            placeholder="Email"
+                            maxlength="25"
+                            required>
                         </li>
                         <li>
                             <input type="tel"
-                            placeholder="Phone">
+                            placeholder="Phone"
+                            maxlength="14"
+                            required>
                         </li>
                         <li>
                             <input type="password"
-                            placeholder="Password">
+                            placeholder="Password"
+                            minlength="5"
+                            maxlength="25">
                         </li>
                         <li>
                             <input type="password"
-                            placeholder="Confirm password">
+                            placeholder="Confirm password"
+                            minlength="5"
+                            maxlength="25"
+                            required>
                         </li>
                     </ul>
                     <ul class="radio">
                         <li class="rad1">
                             <label class="label1" for="radio">I want to receive emails about This Game, Company, and the Company family of products.</label>
-                            <input type="checkbox" id="radio">
+                            <input class="check1" type="checkbox" id="radio">
                         </li>
                         <li class="rad2">
                             <label class="label2" for="radio1">I am 18 years old or, if between 13 (or other minimum age of consent to access general audience sites in my country) and 17, my parents are accepting the User Agreement on my behalf.</label>
-                            <input type="checkbox" id="radio1">
+                            <input class="check2" type="checkbox" id="radio1">
                         </li>
                     </ul>
                     <button class="btn">Create account</button>
             </section>
+        </form>
         </div>
     </div>
     <footer>
