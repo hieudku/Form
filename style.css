@@ -126,3 +126,10 @@ section {
     text-align: justify;
     justify-content: center;
 }
+/* Valid check */
+.input:valid {
+    background-color: rgba(58, 115, 76, 0.2);
+}
+.input:invalid:focus {
+    background-color: rgba(115, 66, 58, 0.2);
+}
