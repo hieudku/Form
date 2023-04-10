@@ -4,15 +4,15 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #myVideo {
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
 }
 .heroImage {
     background-repeat: no-repeat;
@@ -28,7 +28,7 @@ header {
     color:rgb(232, 222, 210);
     height: 4rem;
     width: 100%;
-    background-color: rgba(23, 16, 16, 0.7);
+    background-color: rgba(23, 16, 16, 0.6);
     transition: 0.5s;
     display: flex;
     justify-content: space-evenly;
@@ -83,7 +83,7 @@ footer {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
-    background-color: rgba(23, 16, 16, 0.7);
+    background-color: rgba(23, 16, 16, 0.6);
     box-shadow: 0.1rem 0.1rem 0.2rem 0.1rem rgb(17, 16, 16);
     width: 27rem;
     height: 26rem;
@@ -145,8 +145,20 @@ section {
 }
 .rad1, .rad2 {
     display: flex;
-    text-align: justify;
+    text-align:justify;
+    align-items: center;
     gap: 1rem;
+}
+.signIn {
+    font-size: 0.7rem;
+    color:rgb(232, 222, 210);
+}
+.signLink {
+    color:rgba(58, 115, 76, 0.8);
+}
+.input {
+    background-color: rgba(64, 61, 61, 0.6);
+    color:rgb(232, 222, 210);
 }
 /* Valid check */
 .input:valid {
@@ -154,13 +166,6 @@ section {
 }
 .input:invalid:focus {
     background-color: rgba(115, 66, 58, 0.2);
-}
-.signIn {
-    font-size: 0.8rem;
-    color:rgb(232, 222, 210);
-}
-.signLink {
-    color:rgba(58, 115, 76, 0.8);
 }
 .check1, .check2 {
     width: 1rem;
