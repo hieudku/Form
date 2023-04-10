@@ -56,16 +56,16 @@ a:hover {
     max-height: 4rem;
 }
 footer {
+    position: absolute;
     font-size: 0.6rem;
     height: 3rem;
-    margin: auto 0;
     background-color: rgb(16, 15, 15);
     color: rgb(232, 222, 210);
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    top: 0;
+    bottom: 0;
 }
 .content {
     padding: 0.5rem;
