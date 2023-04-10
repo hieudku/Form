@@ -1,13 +1,13 @@
 body {
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: fantasy, cursive;
 }
 .heroImage {
     background-image: url("./img/god-of-war.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 91vh;
+    height: 93.5vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,13 +31,22 @@ header:hover {
 header > div {
     min-width: 4rem;
 }
+a {
+    text-decoration: none;
+    color: rgb(232, 222, 210);
+    transition: 0.5s;
+}
+a:hover {
+    color: rgb(179, 54, 54);
+    transition: 0.5s;
+}
 #logo {
     max-width: 4rem;
     max-height: 4rem;
 }
 footer {
     font-size: 0.6rem;
-    height: 4rem;
+    height: 3rem;
     margin: auto 0;
     background-color: rgb(16, 15, 15);
     color: rgb(232, 222, 210);
@@ -65,7 +74,7 @@ footer {
     background-color: rgba(23, 16, 16, 0.7);
     box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgb(37, 35, 35);
     width: 27rem;
-    height: 25rem;
+    height: 26rem;
     min-width: 15rem;
     min-height: 14rem;
     transition: 0.5s;
@@ -132,4 +141,11 @@ section {
 }
 .input:invalid:focus {
     background-color: rgba(115, 66, 58, 0.2);
+}
+.signIn {
+    font-size: 0.8rem;
+    color:rgb(232, 222, 210);
+}
+.signLink {
+    color:rgba(58, 115, 76, 0.8);
 }
