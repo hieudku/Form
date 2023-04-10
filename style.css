@@ -1,10 +1,20 @@
 /* Outside of form */
 body {
     margin: 0;
-    font-family: fantasy, cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#myVideo {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
 .heroImage {
-    background-image: url("./img/god-of-war.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -23,7 +33,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgb(37, 35, 35);
+    box-shadow: 0.1rem 0.1rem 0.2rem 0.1rem rgb(17, 16, 16);
 }
 header:hover {
     background-color: rgba(23, 16, 16, 0.8);
@@ -74,7 +84,7 @@ footer {
     justify-content: center;
     margin-top: 1rem;
     background-color: rgba(23, 16, 16, 0.7);
-    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgb(37, 35, 35);
+    box-shadow: 0.1rem 0.1rem 0.2rem 0.1rem rgb(17, 16, 16);
     width: 27rem;
     height: 26rem;
     min-width: 15rem;
@@ -111,7 +121,7 @@ input {
 .btn {
     background-color: rgba(58, 115, 76, 0.8);
     color: rgb(232, 222, 210);
-    width: 10rem;
+    width: 12rem;
     height: 4rem;
     font-size: 1.2rem;
     transition: 0.5s;
