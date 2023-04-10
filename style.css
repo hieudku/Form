@@ -1,3 +1,4 @@
+/* Outside of form */
 body {
     margin: 0;
     font-family: fantasy, cursive;
@@ -67,6 +68,7 @@ footer {
 #text1 {
     font-size: 1.5rem;
 }
+/* Inner form */
 .form {
     display: flex;
     justify-content: center;
@@ -78,8 +80,7 @@ footer {
     min-width: 15rem;
     min-height: 14rem;
     transition: 0.5s;
-    padding-left: 2rem;
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 .form:hover {
     background-color: rgba(23, 16, 16, 0.8);
@@ -114,6 +115,7 @@ input {
     height: 4rem;
     font-size: 1.2rem;
     transition: 0.5s;
+    border: 1px solid green;
 }
 .btn:hover {
     background-color: rgba(48, 94, 63, 0.8);
@@ -128,12 +130,12 @@ section {
 .label1, .label2 {
     color: rgb(232, 222, 210);
     font-size: 0.6rem;
-    width: 16rem;
+    max-width: 20rem;
 }
 .rad1, .rad2 {
     display: flex;
     text-align: justify;
-    justify-content: center;
+    gap: 1rem;
 }
 /* Valid check */
 .input:valid {
@@ -148,4 +150,7 @@ section {
 }
 .signLink {
     color:rgba(58, 115, 76, 0.8);
+}
+.check1, .check2 {
+    width: 1rem;
 }
