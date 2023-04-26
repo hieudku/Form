@@ -1,4 +1,8 @@
 /* Outside of form */
+html {
+    background-image: url("/img/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg");
+    background-size: cover; 
+}
 body {
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
