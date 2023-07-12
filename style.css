@@ -1,6 +1,6 @@
 /* Outside of form */
 html {
-    background-image: url('../img/god-of-war.jpg');
+    background-image: url('https://raw.githubusercontent.com/hieudku/Form/main/img/god-of-war.jpg');
     background-size: cover; 
 }
 body {
